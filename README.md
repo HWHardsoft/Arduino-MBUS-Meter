@@ -41,7 +41,7 @@ You can view the structure of the header in mbusslave.cpp and change parameters,
 
 ## Libraries
 
-Install the following librarie through Arduino Library Manager
+Install the following library through Arduino Library Manager
 
 MBUSPayload Library [MBUSPayload Library](https://github.com/AllWize/mbus-payload)
 
