@@ -3,10 +3,8 @@
 This is an example for Arduino IDE how to create an own MBUS consumption meter (MBUS Slave) for Arduino MKR boards and Feather Boards (including ESP32, RP2040, nRF52840, Cortex M0 ....).
 
 
-![My image](https://user-images.githubusercontent.com/3049858/105029941-56348500-5a53-11eb-8301-2ac0e21983a8.jpg)
+![Data output of the simulated meter in Lorusfree](https://user-images.githubusercontent.com/3049858/263453247-d6c13182-0374-48ee-8505-16257cd2addd.jpg)
 
-
-[![Watch the video](https://i9.ytimg.com/vi/41QTn6MzIbA/mq2.jpg?sqp=CITAm4AG&rs=AOn4CLBQiqDSzxs3ZZmQxMmFEhXdGAX4Ow)](https://youtu.be//41QTn6MzIbA)
 
 
 ## Hardware 
