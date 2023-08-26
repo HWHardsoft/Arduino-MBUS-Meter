@@ -11,7 +11,7 @@ This is an example for Arduino IDE how to create an own MBUS consumption meter (
 
 I've used our MBUS Slave wing for feather borads and/or MBUS slave shield for Arduino MKR boards
 
-![MBUS Slave Wing](https://cdn.shopify.com/s/files/1/1509/1638/products/2.Produkt_500x.jpg?v=1604667072)
+![MBUS Slave Wing](https://user-images.githubusercontent.com/3049858/263453240-bcba954c-a1f5-4691-90cb-c857e5c9d9bf.jpg)
 
 ![MBUS Slave shield for Arduino MKR](https://cdn.shopify.com/s/files/1/1509/1638/products/2.Produkt_500x.jpg?v=1604667072)
 
