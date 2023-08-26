@@ -30,17 +30,11 @@ Furthermore, an MBUS master is required to supply the MBUS and to be able to exc
 
 ## Remarks
 
-This example was written for the ESP32-CAM camera. 
-![My image](https://user-images.githubusercontent.com/3049858/105034491-d8c04300-5a59-11eb-9577-a203aa188705.jpg)
+The default baud rate, default bus address and id of the device can be adjusted in mbusslave.h.
 
-Please install the CameraWebServer example on the ESP32-cam which comes with the Arduino IDE.
-![My image](https://user-images.githubusercontent.com/3049858/105033964-1c667d00-5a59-11eb-9af5-de14a0812b04.jpg)
+Consumption values ​​can be added or edited in the Encode_Payload() function. Be careful with MBUS codes of the "Device" domain. This code does not work or is already contained in the header of the protocol.
 
-Please choose "ESP Wrover Module" as board and "Huge APP ..." as partition scheme:
-![My image](https://user-images.githubusercontent.com/3049858/105033944-17093280-5a59-11eb-8acb-c223c089b0b0.jpg)
-
-
-The software can be used with other IP cameras too if this cameras can provide a jpg picture via http in QVGA (320 x 240) or VGA (640 x 480) size. Probably some small changes especially in the host address configuration are needed in this case.
+You can view the structure of the header in mbusslave.cpp and change parameters, e.g. the manufacturer ID, if necessary.
 
 
 ## Libraries
