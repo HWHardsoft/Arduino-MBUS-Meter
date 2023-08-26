@@ -28,6 +28,7 @@ The code was tested with the following boards:
 Furthermore, an MBUS master is required to supply the MBUS and to be able to exchange data with the slave. For example, you can use a [Raspberry Pi with libmbus and our MBUS Master HAT](https://www.hwhardsoft.de/english/projects/m-bus-rpi-hat/)....
 
 
+
 ## Remarks
 
 The default baud rate, default bus address and id of the device can be adjusted in mbusslave.h.
@@ -37,11 +38,13 @@ Consumption values ​​can be added or edited in the Encode_Payload() function
 You can view the structure of the header in mbusslave.cpp and change parameters, e.g. the manufacturer ID, if necessary.
 
 
+
 ## Libraries
 
 Install the following librarie through Arduino Library Manager
 
 MBUSPayload Library [MBUSPayload Library](https://github.com/AllWize/mbus-payload)
+
 
 
 ## Credits 
@@ -53,6 +56,7 @@ https://github.com/openenergymonitor/HeatpumpMonitor
 and Bryan McLellan  <btm@loftninjas.org>
 
 https://github.com/btm/emonMbus
+
 
 
 # License
