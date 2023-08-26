@@ -11,7 +11,7 @@ This is an example for Arduino IDE how to create an own MBUS consumption meter (
 
 I've used our MBUS Slave wing for feather borads and/or MBUS slave shield for Arduino MKR boards
 
-![MBUS Slave Wing](https://user-images.githubusercontent.com/3049858/263453696-eaf3f158-7afa-4ac2-a786-6002ce8581bb.jpg)  ![MBUS Slave shield for Arduino MKR](https://user-images.githubusercontent.com/3049858/263453696-eaf3f158-7afa-4ac2-a786-6002ce8581bb.jpg)
+![MBUS Slave Wing](https://user-images.githubusercontent.com/3049858/263453697-6a00bde5-259d-4733-a12a-3dff900e32d1.jpg)  ![MBUS Slave shield for Arduino MKR](https://user-images.githubusercontent.com/3049858/263453696-eaf3f158-7afa-4ac2-a786-6002ce8581bb.jpg)
 
 You can find all information about the hardware here:
 https://www.hwhardsoft.de/english/projects/
@@ -25,10 +25,10 @@ The code was tested with the following boards:
 * Sparkfun ESP32 Thing Plus
 * Sparkfun Thing Plus RP2040
 
-Furthermore, an MBUS master is required to supply the MBUS and to be able to exchange data with the slave. For example, you can use a Raspberry Pi with libmbus and our MBUS Master HAT....
+Furthermore, an MBUS master is required to supply the MBUS and to be able to exchange data with the slave. For example, you can use a [Raspberry Pi with libmbus and our MBUS Master HAT](https://www.hwhardsoft.de/english/projects/m-bus-rpi-hat/)....
 
 
-## Camera
+## Remarks
 
 This example was written for the ESP32-CAM camera. 
 ![My image](https://user-images.githubusercontent.com/3049858/105034491-d8c04300-5a59-11eb-9577-a203aa188705.jpg)
@@ -50,15 +50,15 @@ Install the following librarie through Arduino Library Manager
 MBUSPayload Library [MBUSPayload Library](https://github.com/AllWize/mbus-payload)
 
 
-
 ## Credits 
 
-This example based on the awesome work of:
+Based on the awesome work of OpenEnergyMonitor code by Trystan Lea, Glyn Hudson, and others
 
-* Stefan Fambach    www.fambach.net
-* Github user 0015  https://github.com/0015/IdeasNProjects
+https://github.com/openenergymonitor/HeatpumpMonitor
 
+and Bryan McLellan  <btm@loftninjas.org>
 
+https://github.com/btm/emonMbus
 
 
 # License
