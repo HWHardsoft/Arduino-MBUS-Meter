@@ -1,6 +1,6 @@
 # Arduino-MBUS-Meter
 
-This is an example for Arduino IDE how to create an own MBUS consumption meter (MBUS Slave) for Arduino MKR boards and Feather Boards (including ESP32, RP2040, nRF52840, Cortex M0 ....).
+This is an example for Arduino IDE how to create an own MBUS consumption meter (MBUS Slave) for Arduino MKR boards, Raspberry Pi Pico and Feather Boards (including ESP32, RP2040, nRF52840, Cortex M0 ....).
 
 
 ![Data output of the simulated meter in Lorusfree](https://user-images.githubusercontent.com/3049858/263453247-d6c13182-0374-48ee-8505-16257cd2addd.jpg)
@@ -9,12 +9,19 @@ This is an example for Arduino IDE how to create an own MBUS consumption meter (
 
 ## Hardware 
 
-I've used our MBUS Slave wing for feather borads and/or MBUS slave shield for Arduino MKR boards
+I've used our MBUS Slave boards:
 
 ![MBUS Slave Wing](https://user-images.githubusercontent.com/3049858/263453697-6a00bde5-259d-4733-a12a-3dff900e32d1.jpg)  ![MBUS Slave shield for Arduino MKR](https://user-images.githubusercontent.com/3049858/263453696-eaf3f158-7afa-4ac2-a786-6002ce8581bb.jpg)
+![Raspberry Pi Pico HAT](https://github.com/HWHardsoft/DLMS-MBUS-Reader/assets/3049858/61f642eb-912b-4349-afba-1ad43f3610c6)
 
-You can find all information about the hardware here:
-https://www.hwhardsoft.de/english/projects/
+MBUS Slave Raspberry Pi Pico HAT:
+https://www.hwhardsoft.de/english/projects/m-bus-pico-hat/
+
+MBUS Slave Feather Wing:
+https://www.hwhardsoft.de/english/projects/m-bus-featherwing/
+
+MBUS Slave Arduino MKR Shield:
+https://www.hwhardsoft.de/english/projects/m-bus-mkr-shield/
 
 The code was tested with the following boards:
 
@@ -24,6 +31,7 @@ The code was tested with the following boards:
 * Adafruit Feather M0 Express
 * Sparkfun ESP32 Thing Plus
 * Sparkfun Thing Plus RP2040
+* Raspberry Pi Pico
 
 Furthermore, an MBUS master is required to supply the MBUS and to be able to exchange data with the slave. For example, you can use a [Raspberry Pi with libmbus and our MBUS Master HAT](https://www.hwhardsoft.de/english/projects/m-bus-rpi-hat/)....
 
